@@ -1,0 +1,86 @@
+.root {
+    -fx-font-family: "Consolas";
+    -fx-background-color: linear-gradient(to bottom, #1e1e2f, #151521);
+}
+
+.label {
+    -fx-text-fill: #e0e0e0;
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #3a3a5c;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16;
+    -fx-background-radius: 8;
+}
+
+.button:hover {
+    -fx-background-color: #5a5a8a;
+}
+
+.text-field, .choice-box {
+    -fx-background-color: #2b2b40;
+    -fx-text-fill: white;
+    -fx-border-color: #5a5a8a;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.choice-box .label {
+    -fx-text-fill: white;
+}
+
+.choice-box .menu-item .label{
+    -fx-text-fill: #2b2b40;
+}	
+
+.table-view {
+    -fx-background-color: #1e1e2f;
+    -fx-border-color: #5a5a8a;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #2b2b40;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: white;
+}
+
+.table-row-cell {
+    -fx-background-color: #1e1e2f;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #25253a;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #5a5a8a;
+    -fx-text-fill: white;
+}
+
+.grid-cell {
+    -fx-border-color: #444;
+    -fx-alignment: center;
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+    -fx-font-size: 16px;
+}
+
+.info-label {
+    -fx-text-fill: #ffd369;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
